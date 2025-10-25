@@ -27,6 +27,9 @@ public class Basic_Locators {
         //Finfing Element By Partial Link Text and Clicking on it
         driver.findElement(By.partialLinkText("SDET-QA (You")).click();
 
+        // logs
+        driver.manage().logs().get("Chrome");
+
 
         driver.quit();
 
