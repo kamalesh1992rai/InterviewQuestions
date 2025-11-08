@@ -12,12 +12,6 @@ public class StaticDropDown {
         WebDriver driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/dropdownsPractice/");
 
-        // dropdown with select tag
-
-        WebElement StaticDropdown = driver.findElement(By.id(""));
-
-        Select dropdown = new Select(staticDropdown);
-        System.out.println();
 
     }
 }
