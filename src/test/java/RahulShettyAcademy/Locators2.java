@@ -1,6 +1,6 @@
 package RahulShettyAcademy;
 
-import static org.junit.Assert.*;
+
 import java.time.Duration;
 
 import org.junit.Assert;
